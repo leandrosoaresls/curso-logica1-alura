@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+<body>
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    function brasilGeracoes () {
+        var anoColonizacao = 1500;
+        var anoAtual = 2018;
+        var idadeMediaQuandoTemFilhos = 28;
+        var quantidadeDeGeracoes = (anoAtual - anoColonizacao) / idadeMediaQuandoTemFilhos;
+        mostra("<p>Já se passaram " + quantidadeDeGeracoes + " gerações!<p>");
+        pulaLinha();
+    }
+
+    brasilGeracoes();
+
+</script>
+</body>
+</html>
